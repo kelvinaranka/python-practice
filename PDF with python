@@ -1,0 +1,11 @@
+from reportlab.pdfgen import canvas
+
+c = canvas.Canvas("my_first.pdf")
+
+c.drawString(100, 750, "Hello! this is my first PDF created with Python.")
+c.drawString(100, 730, "My name is Kelvin.")
+c.drawString(100, 710, "I am learning Python.")
+
+c.save()
+
+print("PDF created successfully!")
