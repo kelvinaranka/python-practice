@@ -1,0 +1,8 @@
+from PIL import Image
+
+img = Image.open("photo.png.png")
+
+img.show()
+
+print("Image opened successfully!")
+print(img.mode)
